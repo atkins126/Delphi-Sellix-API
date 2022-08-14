@@ -8,4 +8,26 @@ object frmMain: TfrmMain
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
   DesignerMasterStyle = 0
+  object tlbHeader: TToolBar
+    Size.Width = 891.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+  object statFooter: TStatusBar
+    Position.Y = 618.000000000000000000
+    ShowSizeGrip = True
+    Size.Width = 891.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+  end
+  object tbcMain: TTabControl
+    Align = Client
+    Size.Width = 891.000000000000000000
+    Size.Height = 578.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    TabPosition = PlatformDefault
+  end
 end

@@ -135,6 +135,9 @@
             <Form>frmMain</Form>
             <FormType>fmx</FormType>
         </DCCReference>
+        <DCCReference Include="API\Sellix.Types.pas"/>
+        <DCCReference Include="API\Sellix.pas"/>
+        <DCCReference Include="API\Sellix.Consts.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
